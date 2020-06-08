@@ -1,0 +1,28 @@
+.containerMoviePage {
+    padding: 32px 20%;
+}
+.movie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+}
+.info {
+    width: 40%;
+    padding: 24px;
+}
+.title {
+    width: 300px;
+}
+.image {
+    width: 30%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+
+    border-radius: 15px;
+}
+.overview {
+    padding: 24px;
+}

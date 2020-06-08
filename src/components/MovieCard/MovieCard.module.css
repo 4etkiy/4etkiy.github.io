@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    margin-top: 24px;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 4px;
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+}
+
+.infoTitle {
+    font-weight: 500;
+}
+
+.title {
+    margin-top: 0px;
+}
+.image {
+    width: 20%;
+}
+.desc {
+    padding: 24px;
+}
