@@ -38,7 +38,7 @@ class MoviesPage extends React.Component {
         this.props.getMovies(this.state.query, this.props.page + 1);
     };
     onUp = () => {
-        this.props.getMovies(this.state.query);
+        window.scrollTo(0, 0);
     };
 
     render = () => {
